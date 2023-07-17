@@ -1,0 +1,7 @@
+.todo-checked-yazi{
+    text-decoration:line-through;
+}
+
+.todo-uchecked-yazi{
+    text-decoration: none;
+}
