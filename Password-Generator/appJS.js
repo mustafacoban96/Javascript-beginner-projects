@@ -4,9 +4,6 @@ const GBtn = document.querySelector('.generate-button');
 const copyImg = document.querySelector('.copy-img');
 
 
-
-
-
 function generate(){
     let randomstring = Math.random().toString(36).slice(-9);
     var symbolIndex = Math.floor((Math.random()*22)+ 1);

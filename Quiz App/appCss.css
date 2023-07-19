@@ -1,0 +1,71 @@
+.body{
+    background-color: #0a2351;
+}
+
+
+
+h2{
+    color: #0a2351;
+}
+
+.myhr{
+    width: 100%;
+}
+
+
+.question{
+    color: #0a2351;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.multiple-choices-area ul li{
+    list-style: none;
+    margin:15px;
+    font-size: 1.2rem;
+    padding: 9px;
+    margin: 22px;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 1.5px #0a2351 solid;
+    width: 90%;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.multiple-choices-area ul li:hover{
+    background-color: #0a2351;
+    color: #fff;
+}
+
+
+
+
+.btn{
+    /*display: none;*/
+    background-color: #0a2351;
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 1.2rem;
+    width: 30%;
+}
+.btn:hover{
+    background-color: #009767;
+    color: #fff;
+    
+}
+
+
+ul li.disabled {
+    cursor:not-allowed; 
+    color: rgb(177, 176, 176);
+    border-color: rgb(177, 176, 176);
+}
+
+ul li.disabled:hover{
+    background-color:white;
+    color: rgb(177, 176, 176);   
+}
