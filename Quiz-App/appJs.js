@@ -46,12 +46,9 @@ const nextButton = document.querySelector('.btn');
 
 
 function questionDisplay(number){
-   console.log(number)
-
   // Create and append new choices
   if(number <= questions.length-1){
     question.innerHTML = `${number + 1}. ` + questions[number].question;
-
     // Clear previous choices
     choice.innerHTML = '';
     for (let j = 0; j < questions[number].answers.length; j++) {

@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Poppins' ,sans-serif;
+    box-sizing: border-box;
+}
+
+.qr-image{
+    display: none;
+    margin-top: 30px;
+    
+    width: 150px;
+    height: 150px;
+    /* animation-name: qr-area;
+    animation-duration: 3s; */
+}
+
+
+
+@keyframes qr-area {
+    0%   {width: 0;height: 0;}
+}
+
+#delete-qr{
+    margin-left: 20px;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#delete-qr:hover{
+    font-size: 2.2rem;
+}
+
+
+.error{
+    color: rgba(235, 15, 15, 0.658);
+    margin-top: 35px;
+    font-size: 1.4rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    
+}
+
+
