@@ -1,0 +1,5 @@
+[
+    {"firstName" : "Çınar" , "lastName":"Turan" , "age": 20},
+    {"firstName" : "Mustafa" , "lastName":"Çoban", "age": 30},
+    {"firstName" : "Musa" , "lastName":"Arslan", "age": 40}
+]

@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container mt-5 w-50">
+        <div class="row">
+            <div class="col">
+                <form>
+                    <div class="input-group mb-3">
+                        <input id="inp" type="text" class="form-control me-2" aria-describedby="getData">
+                        <div class="input-group-appen">
+                            <button class="btn btn-primary" type="button" id="getOne">GetOne</button>
+                            <button class="btn btn-success" type="button" id="getAll">GetAll</button>
+                            <button class="btn btn-warning" type="button" id="post-data">POST</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="row">
+                <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">UserID</th>
+                        <th scope="col">Title</th>
+                        <th scope="col">Body</th>
+                      </tr>
+                    </thead>
+                    <tbody id="table-body">
+                      
+                    </tbody>
+                  </table>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <!-- <script src="app.js"></script> -->
+    <!-- <script src="asynCallback.js"></script> -->
+    <!-- <script src="promiseExample.js"></script> -->
+    <script src="apiWithPromise.js"></script>
+</body>
+</html>
