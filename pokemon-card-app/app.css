@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:"Poppins",sans-serif
+}
+
+
+:root{
+    --bug: #26de81;
+    --dragon: #ffeaa7;
+    --electric: #fed330;
+    --fairy: #FF0069;
+    --fighting: #30336b;
+    --fire: #f0932b;
+    --flying: #81ecec;
+    --grass: #00b894;
+    --ground: #EFB549;
+    --ghost: #a55eea;
+    --ice: #74b9ff;
+    --normal: #95afc0;
+    --poison: #6c5ce7;
+    --psychic: #a29bfe;
+    --rock: #2d3436;
+    --water: #0190FF;
+}
+
+
+
+
+
+
+
+body{
+    background-color: #eff3ff;
+}
+
+
+.container{
+    width: 350px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+#card{
+    position: relative;
+    background: radial-gradient(circle at 50% 0%, var(--fire) 36%,#ffffff 36%);
+    width: 100%;
+    padding: 30px 20px;
+    box-shadow: 0 20px  30px rgba(0,0,0,0.15);
+    border-radius: 10px;
+}
+
+#card img{
+    display: block;
+    width: 180px;
+    max-height: 200px;
+    position: relative;
+    margin:20px auto;
+}
+
+.hp{
+    width: 80px;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 8px 0;
+    border-radius: 30px;
+    margin-left:auto;
+    font-weight: 400;
+}
+
+#poke-name{
+    text-align: center;
+    font-weight: 600;
+}
+
+.types{
+    display: flex;
+    justify-content: space-around;
+    margin:20px 0px 40px 0;
+}
+.hp span, .types span{
+    font-size:12px;
+    letter-spacing: 0.4px;
+    font-weight: 600px;
+}
+
+.types span{
+    font-size: 15px;
+    padding: 5px 9px;
+    border-radius: 20px;
+    background-color: var(--fire);
+    color:#fff;
+    font-weight: 600;
+}
+
+.stats{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+.stats p{
+    color:#404060;
+}
+#btn{
+    display: block;
+    padding: 15px 60px;
+    font-size: 18px;
+    background-color: #101010;
+    color: #ffffff;
+    position: relative;
+    margin: 30px auto;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+
